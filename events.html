@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="E2 Co-Living 東二共生居｜台東日子這樣過・地方遊程" />
+  <title>台東日子這樣過｜E2 Co-Living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="events.html" aria-label="E2 Co-Living 東二共生居">
+        <span class="brand-mark">E2</span>
+        <span class="brand-copy"><strong>東二共生居</strong><small>CO-LIVING</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="主要選單">
+        <a href="https://e2coliving.com/">首頁</a>
+        <a href="https://e2coliving.com/about/">關於東二</a>
+        <a href="https://e2coliving.com/room/">房型介紹</a>
+        <a class="active" href="events.html">台東日子這樣過</a>
+        <a href="https://e2coliving.com/life/">東二生活</a>
+      </nav>
+      <a class="nav-cta" href="#activities">看看活動</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="list-hero section-pad">
+      <div class="page-container split-intro">
+        <div>
+          <p class="eyebrow">A DAY IN TAITUNG</p>
+          <h1>台東日子<br><em>這樣過</em></h1>
+        </div>
+        <div class="list-intro-copy">
+          <p>從主題餐桌到山海體驗，從味蕾到對話。這裡不只是在安排一趟旅行，而是帶你與台東產出一段真正的連結。</p>
+          <div class="filter-pills" aria-label="活動分類">
+            <button class="filter active" data-filter="all">全部</button>
+            <button class="filter" data-filter="experience">體驗課程</button>
+            <button class="filter" data-filter="local">地方遊程</button>
+            <button class="filter" data-filter="past">過去活動</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="activities">
+      <div class="page-container">
+        <div class="section-heading"><div><p class="section-kicker">NOW & RECENT</p><h2>最近的台東日子</h2></div><p class="section-note">有些下午，可以留給海；有些夜晚，可以留給一桌人。</p></div>
+        <div class="event-list-grid" id="event-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-container footer-grid">
+      <div><div class="footer-brand">E2 CO-LIVING 東二共生居</div><p>不只是租個房間，更協助你落地生活。</p></div>
+      <div class="footer-links"><a href="https://e2coliving.com/">官方網站</a><a href="index.html">活動詳情範例</a><a href="mailto:hello@e2coliving.com">聯絡我們</a></div>
+      <div class="footer-copy">© <span id="year"></span> E2 Co-Living</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
